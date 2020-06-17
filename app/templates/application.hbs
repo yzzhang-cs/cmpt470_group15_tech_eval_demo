@@ -1,5 +1,13 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
+<h1>CMPT 470 Tech Eval Presentation Schedule</h1>
+
+<nav>
+    <ul>
+        <li><LinkTo @route='days' @model="1">Day 1</LinkTo></li>
+        <li><LinkTo @route='days' @model="2">Day 2</LinkTo></li>
+        <li><LinkTo @route='days' @model="3">Day 3</LinkTo></li>
+    </ul>
+</nav>
 
 {{outlet}}
+
+<p class="footer">This is a single-page web-app built with <a href="https://emberjs.com/">ember.js</a></p>

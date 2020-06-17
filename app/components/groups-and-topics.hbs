@@ -1,0 +1,7 @@
+<h2>Day {{@day}}: {{@date}} </h2>
+
+<ul>
+    {{#each @groups_and_topics as |group_and_topic|}}
+        <li>Group {{group_and_topic.group}}: {{group_and_topic.topic}}</li>
+    {{/each}}
+</ul>
