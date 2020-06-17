@@ -42,6 +42,7 @@ export default class DaysRoute extends Route {
     model (params) {
         var day = params.day;
         return {
+            "day": day,
             "groups_and_topics": groups_topics_mapping[day],
             "date": dayToDate(day)
         };
