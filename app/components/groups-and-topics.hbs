@@ -1,7 +1,7 @@
 <h2>Day {{@day}}: {{@date}} </h2>
 
-<ul>
+<ul class='groups-and-topics'>
     {{#each @groups_and_topics as |group_and_topic|}}
-        <li>Group {{group_and_topic.group}}: {{group_and_topic.topic}}</li>
+        <li>Group {{group_and_topic.group}}: <a href="{{group_and_topic.link}}">{{group_and_topic.topic}}</a> </li>
     {{/each}}
 </ul>
