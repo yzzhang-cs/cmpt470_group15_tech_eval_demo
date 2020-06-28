@@ -1,7 +1,7 @@
 # presentation-schedule
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+The app that shows the presentation schedule for Summer 2020 CMPT 470.  
+Deployed at [here](https://thirsty-lamarr-b85622.netlify.app)
 
 ## Prerequisites
 
