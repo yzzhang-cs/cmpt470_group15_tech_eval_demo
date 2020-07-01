@@ -48,3 +48,5 @@ export default class DaysRoute extends Route {
         };
     }
 }
+
+
