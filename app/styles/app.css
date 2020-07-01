@@ -1,7 +1,11 @@
 body {
     width: 40%;
     margin: auto;
-    background-color: white;
+    background-image:url(https://images.pexels.com/photos/19670/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    border: 0px solid white;
+    padding: 50px;
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 
 h1 {
@@ -13,24 +17,25 @@ nav ul {
     margin: auto;
     text-align: center;
     list-style-type: none;
+    
 }
 
 nav ul li {
     display: inline;
-    margin-left: -4px;
+    margin-left: 30px;
 }
 
 nav ul li a {
     padding: 0.5em 2em 0.5em 2em;
     color: #C4122E;
-    background-color: #dbdbdb;
+    background-color: none;
     text-decoration: none;
 }
 
 nav ul li a:hover {
     padding: 0.5em 2em 0.5em 2em;
-    background-color: #C4122E;
-    color: white;
+    background-color: skyblue;
+    color: black;
     text-decoration: none;
 }
 
