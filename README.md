@@ -31,7 +31,7 @@ You will need the following things properly installed on your computer.
 
 #### To deploy using Vagrant:
 * `vagrant up`
-* Visit your app at [http://localhost:4200](http://localhost:8080)
+* Visit your app at [http://localhost:8080](http://localhost:8080).  
 
 ### Code Generators
 
