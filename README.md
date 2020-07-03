@@ -24,12 +24,12 @@ You will need the following things properly installed on your computer.
 
 ## Running / Development
 
-### To run on your computer:
+#### To run on your computer:
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 * Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
 
-### To deploy using Vagrant:
+#### To deploy using Vagrant:
 * `vagrant up`
 * Visit your app at [http://localhost:4200](http://localhost:8080)
 
