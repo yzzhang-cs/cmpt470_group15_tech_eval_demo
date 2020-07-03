@@ -16,6 +16,32 @@ execute 'ntp_restart' do
   command 'service ntp restart'
 end
 
+# Install npm
+package "npm"
+# Update npm
+execute 'update npm' do
+  command 'sudo npm install -g n && sudo n stable'
+end
+
+# Install ember
+execute 'npm install ember-cli' do
+  command 'sudo npm install -g ember-cli'
+end
+
+# Fix config permission
+execute 'fix config permission' do
+  command 'mkdir -p /home/vagrant/.config ; chmod 777 /home/vagrant/.config'
+end
+
+# Build ember app
+execute 'ember build' do
+  user 'vagrant'
+  environment ({'HOME' => '/home/vagrant'})
+  cwd '/home/vagrant/project'
+  command "sudo npm install && ember build"
+end
+
+
 # Install nginx
 package "nginx"
 # Copy nginx default config to the vm
