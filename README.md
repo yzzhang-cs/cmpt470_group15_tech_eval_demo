@@ -1,28 +1,37 @@
 # presentation-schedule
 
 The app that shows the presentation schedule for Summer 2020 CMPT 470.  
-Deployed at [here](https://thirsty-lamarr-b85622.netlify.app)
+Deployed at [here](https://thirsty-lamarr-b85622.netlify.app).
 
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
 
+### To run on your computer:
 * [Git](https://git-scm.com/)
 * [Node.js](https://nodejs.org/) (with npm)
 * [Ember CLI](https://ember-cli.com/)
-* [Google Chrome](https://google.com/chrome/)
+* [Google Chrome](https://google.com/chrome/)  
+
+### To run using Vagrant:
+* [Vagrant](https://www.vagrantup.com/)
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd presentation-schedule`
+* `git clone git@csil-git1.cs.surrey.sfu.ca:yzzhang/tech_eval_demo.git` this repository
+* `cd tech_eval_demo`
 * `npm install`
 
 ## Running / Development
 
+### To run on your computer:
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 * Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
+
+### To deploy using Vagrant:
+* `vagrant up`
+* Visit your app at [http://localhost:4200](http://localhost:8080)
 
 ### Code Generators
 
