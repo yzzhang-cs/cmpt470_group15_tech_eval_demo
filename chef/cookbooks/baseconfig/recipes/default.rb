@@ -38,7 +38,7 @@ execute 'ember build' do
   user 'vagrant'
   environment ({'HOME' => '/home/vagrant'})
   cwd '/home/vagrant/project'
-  command "sudo npm install && ember build"
+  command 'sudo npm install && sudo chmod -R 777 /home/vagrant/.config && ember build'
 end
 
 
